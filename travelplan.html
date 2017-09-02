@@ -31,7 +31,7 @@
 
         <!-- You only need this form and the form-labels-on-top.css -->
 
-        <form class="form-labels-on-top" method="post" action="#">
+        <form id="travel_form" class="form-labels-on-top" method="post" action="#">
 
             <div class="form-row">
                 <label>
@@ -198,7 +198,7 @@
             
 
             <div class="form-row">
-                        <input type="button" value="Submit Form" id="submit" onclick="travel_submit()"/> 
+                        <input type="button" value="Submit Form" id="submit" onclick="validateForm()"/> 
                         </div>
 
 
@@ -241,6 +241,8 @@
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
       <script src="assets/js/travel_submit.js"></script>
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+
 
 
 </html>
