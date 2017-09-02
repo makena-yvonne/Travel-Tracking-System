@@ -4,11 +4,7 @@ function travel_submit(){
 	window.location = "index.html";
 }	
 
- $(document).ready(function(){
 
-$('.submit').click(function(){
-    validateForm();   
-});
 
 function validateForm(){
 
